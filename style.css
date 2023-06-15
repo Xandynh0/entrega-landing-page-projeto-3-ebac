@@ -1,0 +1,97 @@
+@font-face {
+    font-family:'lol' ;
+    src: url(./fonts/BeaufortForLoL-OTF/BeaufortforLOL-Bold.otf) format('opentype');
+font-weight: bold;
+font-style: normal;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.body{
+    font-family: lol, sans-serif;
+}
+.navbar{
+    background-color: #010A13;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #C89B3C;
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link:hover{
+    color: #fff;
+}
+
+
+.navbar-toggler{
+    background-color: #ffeee6;
+}
+
+.section-title{
+    font-family: lol, cursive;
+}
+.section-title span{
+    color: #C89B3C;
+}
+#sobre-o-restaurante, #cardapio{
+    background-color: #ffeae6;
+}
+
+.nav-cardapio .nav-link.active{
+    background-color: #e15f41;
+    color: #ffeae6;
+}
+.nav-cardapio .nav-link:hover{
+    color: #e15f41;
+}
+.nav-cardapio .nav-link.active:hover{
+    color: #fff;
+}
+.social-links li{
+list-style: none;
+display: inline;
+}
+.social-links a{
+    text-decoration: none;
+}
+
+#fale-conosco button{
+   background-color: #C89B3C;
+   color: #fff;
+
+   
+}
+
+#cabecalho img{
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 787px){
+    .carousel-item img{
+        height: 280px;
+    }
+}
